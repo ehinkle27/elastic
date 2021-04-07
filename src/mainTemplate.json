@@ -345,7 +345,7 @@
     },
     "vmKibanaAcceleratedNetworking": {
       "type": "string",
-      "defaultValue": "Default",
+      "defaultValue": "No",
       "allowedValues": [
         "Default",
         "Yes",
@@ -385,7 +385,7 @@
     },
     "logstash": {
       "type": "string",
-      "defaultValue": "No",
+      "defaultValue": "Yes",
       "allowedValues": [
         "Yes",
         "No"
@@ -530,7 +530,7 @@
     },
     "vmLogstashAcceleratedNetworking": {
       "type": "string",
-      "defaultValue": "Default",
+      "defaultValue": "No",
       "allowedValues": [
         "Default",
         "Yes",
@@ -722,7 +722,7 @@
     },
     "vmDataNodeAcceleratedNetworking": {
       "type": "string",
-      "defaultValue": "Default",
+      "defaultValue": "No",
       "allowedValues": [
         "Default",
         "Yes",
@@ -918,7 +918,7 @@
     },
     "vmMasterNodeAcceleratedNetworking": {
       "type": "string",
-      "defaultValue": "Default",
+      "defaultValue": "No",
       "allowedValues": [
         "Default",
         "Yes",
@@ -1064,7 +1064,7 @@
     },
     "vmClientNodeAcceleratedNetworking": {
       "type": "string",
-      "defaultValue": "Default",
+      "defaultValue": "No",
       "allowedValues": [
         "Default",
         "Yes",
@@ -1234,7 +1234,7 @@
     },
     "appGatewaySku": {
       "type": "string",
-      "defaultValue": "Medium",
+      "defaultValue": "Small",
       "allowedValues": [
         "Small",
         "Medium",
@@ -1246,7 +1246,7 @@
     },
     "appGatewayCount": {
       "type": "int",
-      "defaultValue": 2,
+      "defaultValue": 1,
       "minValue": 1,
       "maxValue": 10,
       "metadata": {
@@ -1269,7 +1269,7 @@
     },
     "appGatewayWafStatus": {
       "type": "string",
-      "defaultValue": "Enabled",
+      "defaultValue": "Disabled",
       "allowedValues": [
         "Enabled",
         "Disabled"
